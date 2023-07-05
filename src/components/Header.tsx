@@ -16,9 +16,9 @@ export const Header = () => {
   }
 
   return (
-    <header>
+    <header className="max-w-xl mx-auto">
       <h1>Título da página</h1>
-      <div className="max-w-xl mx-auto border border-dotted border-gray-400 p-3 flex flex-col gap-2">
+      <div className=" border border-dotted border-gray-400 p-3 flex flex-col gap-2">
         <input
           className="border border-gray-300 p-2 text-black text-xl"
           type="text"
